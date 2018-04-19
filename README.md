@@ -1,1 +1,1 @@
-# LeetCodeInJava
+# LeetCode Java&Solidity&Kotlin
