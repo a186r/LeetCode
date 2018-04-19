@@ -1,5 +1,3 @@
-package first;
-
 /*
 * @authot dursss
 * @date 2017年6月15日
@@ -17,7 +15,13 @@ package first;
 
 public class TwoSum_java {
 	public int[] twoSum(int[] nums, int target) {
-
-		return nums;
+		for(int i = 0; i < nums.length;i++){
+			for(int j = 0;j < nums.length;j++){
+				if(nums[j] == target - nums[i]){
+					return new int[]{i,j};
+				}
+			}
+		}
+		throw new IllegalArgumentException("No two sum solution");
 	}
 }
