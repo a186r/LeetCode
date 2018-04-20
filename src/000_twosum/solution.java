@@ -13,7 +13,7 @@
  * return [0, 1].
  */
 
-public class TwoSum_java {
+class TwoSum_java {
 	public int[] twoSum(int[] nums, int target) {
 		for(int i = 0; i < nums.length;i++){
 			for(int j = 0;j < nums.length;j++){
